@@ -122,6 +122,8 @@ body {
   width: 100%;
 }
 
+.nav__list-item:hover {color:red;}
+
 body.nav-active .menu-icon__line {
   background-color: #000;
   -webkit-transform: translateX(0px) rotate(-45deg);
