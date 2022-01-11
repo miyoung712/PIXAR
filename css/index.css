@@ -3,11 +3,21 @@
 
 @media (min-width:1200px){
 
-    #logo_box {width:200px; height:60px;}
-    #logo_box img {width:160px; height:40px; margin:10px 0 0 10px;}
+    /* #logo_box {width:200px; height:60px;}
+    #logo_box img {width:160px; height:40px; margin:10px 0 0 10px;} */
 
 
     /* 메인 이미지 */
+
+    .site-content {   
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      width: 100%;
+      padding: 8% 0%;
+      box-sizing: border-box;
+      height: 100vh;    }
+  
 
     .container {
         display: flex;
@@ -17,6 +27,9 @@
         height: 100vh;
       
      }
+
+     
+  
       
       .box {
         flex: 1;
@@ -25,8 +38,8 @@
         margin: 5 0%;
         box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
         line-height: 0;
-        margin-top:-147px;
-        height: 95vh;
+        margin-top:-386px;
+        height: 100vh;
      
       }
       
@@ -57,100 +70,13 @@
         height: 100%;
       }
 
+
+    
     /* 메인 이미지 */
 
 
-
-    /* 우측 상단 아이콘 */
-
-    .menu {
-        display: block;
-        width: 45px;
-        height: 36px;
-        position: relative;
-        cursor: pointer;
-      }
-      .menu div {
-        position: absolute;
-        height: 4px;
-        border-radius: 2px;
-        background: #000;
-        transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6), width 0.2s ease 0.2s;
-      }
-      .menu input {
-        display: none;
-      }
-      .menu input + div {
-        top: 50%;
-        left: 0;
-        margin: -2px 0 0 0;
-        width: 40px;
-        transform-origin: 50% 50%;
-      }
-      .menu input + div + div {
-        top: 2px;
-        left: 0;
-        width: 20px;
-        transform-origin: 0 50%;
-      }
-      .menu input + div + div + div {
-        bottom: 2px;
-        right: 0;
-        width: 28px;
-        transform-origin: 100% 50%;
-        transform: translate(-12px, 0);
-      }
-      .menu input:checked + div {
-        transform: rotate(-45deg);
-        transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s;
-      }
-      .menu input:checked + div + div {
-        width: 19px;
-        transform: translate(6px, 0) rotate(45deg);
-        transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s, width 0.2s ease;
-      }
-      .menu input:checked + div + div + div {
-        width: 19px;
-        transform: translate(-6px, 0) rotate(45deg);
-        transition: transform 0.45s cubic-bezier(0.9, -0.6, 0.3, 1.6) 0.1s, width 0.2s ease;
-      }
-      
-      html {
-        box-sizing: border-box;
-        -webkit-font-smoothing: antialiased;
-      }
-      
-      * {
-        box-sizing: inherit;
-      }
-      *:before, *:after {
-        box-sizing: inherit;
-      }
-      
-      body {
-        min-height: 100vh;
-        font-family: 'Montserrat', sans-serif;
-        color: #ADAFB6;
-        
-        display: flex;
-        justify-content:flex-end;
-        
-        right:100px;
-   
-      }
-      body .dribbble {
-        position: fixed;
-        display: block;
-        right: 24px;
-        bottom: 24px;
-      }
-      body .dribbble img {
-        display: block;
-        width: 76px;
-      }
     
-     /* 우측 상단 아이콘 */
-
+   
 
 
 }
