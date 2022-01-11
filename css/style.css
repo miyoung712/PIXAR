@@ -14,12 +14,11 @@ body {
 
 .site-content {
  
-  height: 10px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-
 }
+
 .site-content__headline {
   font-weight: 200;
   color: #ffffff;
@@ -53,7 +52,7 @@ body {
   float: right;
 }
 
-#logo_box {width:200px; height:60px;}
+#logo_box {width:200px; height:60px; position:absolute; top:0; left:0;}
 #logo_box img {width:160px; height:40px; margin:18px 0 0 90px; z-index: 2;}
 #logo_box img {position: fixed;}
 
@@ -106,6 +105,7 @@ body {
   transition: opacity .2s ease, transform .3s ease;
   transition: opacity .2s ease, transform .3s ease, -webkit-transform .3s ease;
   margin-right: 25px;
+  text-decoration:none;
 }
 .nav__list-item:before {
   content: "";
