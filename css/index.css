@@ -53,7 +53,7 @@
 
       .box > img:hover {opacity:0.5;}
       
-      .box > span {
+      .box_text > span {
         font-size: 3.8vh;
         display: block;
         text-align: center;
