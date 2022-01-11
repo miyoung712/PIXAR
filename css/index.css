@@ -19,13 +19,14 @@
     .container {
         display: flex;
         width: 100%;
-        padding: 8% 0%;
+        padding: 5% 0%;
         box-sizing: border-box;
-        height: 100vh;}
+        height: 20vh;}
 
 
       .box {
         flex: 1;
+        position:relative;
         overflow: hidden;
         transition: 0.5s;
         margin: 5 0%;
