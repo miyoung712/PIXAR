@@ -6,7 +6,7 @@ a {text-decoration:none;}
 
 body {
   background-color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Barlow';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -93,6 +93,8 @@ body {
   cursor: pointer;
 }
 .nav__list-item {
+  font-family: 'Barlow';
+  font-weight: 400;
   position: relative;
   display: inline-block;
   transition-delay: 0.8s;
