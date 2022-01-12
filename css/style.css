@@ -113,7 +113,6 @@ body {
 }
 
 .nav__list-item a {color:#000;}
-.nav__list-item a:hover {color:red;}
 
 .nav__list-item:before {
   content: "";
@@ -130,8 +129,6 @@ body {
 .nav__list-item:hover:before {
   width: 100%;
 }
-
-.nav__list-item:hover {color:red;}
 
 body.nav-active .menu-icon__line {
   background-color: #000;
