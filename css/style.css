@@ -10,7 +10,7 @@ body {
   font-family: 'Barlow';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background:url(../img/sub_top.jpg) top center/100% 62% no-repeat;   
+  background:url(../img/sub_top.jpg) top center/100% 62% no-repeat; 
   position:relative;
    
 }
