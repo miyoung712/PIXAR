@@ -108,6 +108,10 @@ body {
   margin-right: 25px;
   text-decoration:none;
 }
+
+.nav__list-item a {color:#000;}
+.nav__list-item a:hover {color:red;}
+
 .nav__list-item:before {
   content: "";
   position: absolute;
