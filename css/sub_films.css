@@ -6,7 +6,7 @@
  /* body {overflow: hidden;} */
  /* 스크롤 */
  .container {
-    width: 11700px; height: calc(195vh - 62%);
+    width: 11700px; height: calc(200vh - 62%);
     position:absolute; bottom:0;
     /* background: -webkit-gradient(linear, left top, right top, from(#FCB48D), color-stop(20%, #FCB48D), color-stop(20%, #FCA17D), color-stop(40%, #FCA17D), color-stop(40%, #DA627D), color-stop(60%, #DA627D), color-stop(60%, #9A348E), color-stop(80%, #9A348E), color-stop(80%, #782B7F), to(#782B7F));
     background: linear-gradient(to right, #FCB48D 0%, #FCB48D 20%, #FCA17D 20%, #FCA17D 40%, #DA627D 40%, #DA627D 60%, #9A348E 60%, #9A348E 80%, #782B7F 80%, #782B7F 100%); */
