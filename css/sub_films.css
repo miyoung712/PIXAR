@@ -27,7 +27,7 @@
         margin-left:278px; margin-top: -33px;}
   .container .img_box {width:400px; height:439px; position:relative; margin-top:280px;  background-color: aqua;}  
   .img_box p {font-size:13px; color:#757373; text-align:center; letter-spacing:1px; 
-    font-family:'Montserrat', sans-serif; margin-top:7px;top:10%; left:10%; transform: translate(50%,50%);}
+    font-family:'Montserrat', sans-serif; margin-top:7px;top:10%; left:10%; }
 
   .m_box {width:400px; height:439px; background-color: bisque;  overflow:hidden; }
   .m_box img {height:439px; position:absolute; top:10%; left:10%; transform: translate(50%,50%);
@@ -37,7 +37,7 @@
   .container h2 {font-size:22px; color:#000; text-align:center; font-weight:500; 
           font-family:'Montserrat', sans-serif; margin-top:50px; }
   .img_box h3 {color:#757373; font-size:13px; text-align:center; letter-spacing:1px; 
-           font-family:'Barlow'; margin-top:5px; font-weight: 500;}
+           font-family:'Barlow'; margin-top:6px; font-weight: 500;}
 
     /* 하단 */
   
