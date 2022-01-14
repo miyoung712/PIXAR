@@ -6,8 +6,8 @@ window.addEventListener('wheel', e => {
 
   if (offset < 0) {
     offset = 0;
-  } else if (offset > 11700 - window.innerWidth) {
-    offset = 11700 - window.innerWidth;
+  } else if (offset > 12700 - window.innerWidth) {
+    offset = 12700 - window.innerWidth;
   }
 
   container.style.transform = `translateX(-${offset}px`;
