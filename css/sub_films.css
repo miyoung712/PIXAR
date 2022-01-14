@@ -25,7 +25,7 @@
                  line-height:40px; display:inline-block; margin-top:195px; margin-left:240px;}
   .sub_title .fas {color:#000; font-size:30px;display:flex; justify-content:center; align-items:center; 
         margin-left:278px; margin-top: -33px;}
-  .container .img_box {width:400px; height:439px; position:relative; margin-top:280px; 
+  .container .img_box {width:600px; height:439px; position:relative; margin-top:280px; 
                       overflow:hidden;  background-color: aqua;}  
   .container .img_box p {font-size:13px; color:#757373; text-align:center; letter-spacing:1px; 
     font-family:'Montserrat', sans-serif; margin-top:7px;}
