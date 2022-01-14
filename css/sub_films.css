@@ -25,13 +25,16 @@
                  line-height:40px; display:inline-block; margin-top:195px; margin-left:240px;}
   .sub_title .fas {color:#000; font-size:30px;display:flex; justify-content:center; align-items:center; 
         margin-left:278px; margin-top: -33px;}
-  .container .img_box {width:400px; height:600px; position:relative; margin-top:280px;  background-color: aqua;}  
+  .container .img_box {width:439px; height:600px; position:relative; margin-top:280px;  background-color: aqua;}  
   .img_box p {font-size:13px; color:#757373; text-align:center; letter-spacing:1px; 
     font-family:'Montserrat', sans-serif; margin-top:7px;top:10%; left:10%; }
 
-  .m_box {width:439px; height:439px; background-color: bisque;  overflow:hidden; }
-  .m_box img {height:439px; position:absolute; top:10%; left:10%; transform: translate(50%,50%);
-    min-width: 80%; transform:scale(1);  transition: all 0.3s ease-in-out; }
+  .m_box {width:300px; height:439px; background-color: bisque;  overflow:hidden; 
+           top:10%; left:20%; transform: translate(23%,5%);}
+
+  .m_box img {height:439px; position:absolute; top:0%; left:0%; transform: translate(50%,50%);
+    min-width: 90%; transform:scale(1);  transition: all 0.3s ease-in-out; }
+
   .m_box img:hover {transform: scale(1.2) }
 
   .container h2 {font-size:22px; color:#000; text-align:center; font-weight:500; 
