@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 
-@media (min-width:1200px){
+@media (max-width:599px){
 
   
     /* 메인 이미지 */
@@ -11,16 +11,20 @@
       flex-wrap: wrap;
       flex-direction: row;
       width: 100%;
-      background-color: #000;
       box-sizing: border-box;
-      height: 100vh;}
-
+      height: 100vh;
+      display:flex;
+      background-color: #000;}
+ 
  
     .container {
         display: flex;
         width: 100%;
         box-sizing: border-box;
-        height: 100vh;}
+        height: 100vh;
+        display:flex;
+        flex-wrap:wrap;
+        flex-direction:column; }
 
 
       .box {
@@ -32,18 +36,18 @@
         box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
         line-height: 0;
         height: 100vh;
-        background-color: #fff; }
+        background-color: #fff;}
       
       .box > img {
         width: 100%;
-        height: calc(100% - 10vh);
+        height: 80%;
         object-fit: cover;
         transition: 0.5s; }
 
 
-      .box span {color:#fff;  font-weight:bold; font-size:90px; position:absolute; top:730px; left:0%; margin:0 auto; display:inline-block; text-align:center; width:100%; color:rgba(255, 255, 255, 0); }
+      .box span {color:#fff;  font-weight:bold; font-size:73px; position:absolute; top:210px; left:0%; margin:0 auto; display:inline-block; text-align:center; width:100%; color:rgba(255, 255, 255, 0); }
       
-      .box p { width:100%; position:absolute; bottom:5%;  font-size:40px;
+      .box p { width:100%; position:absolute; bottom:10.5%;  font-size:25px;
               text-align:center;font-family:'Barlow'; }
       .box:hover p {display:none;}
   
@@ -51,7 +55,7 @@
 
       .box:hover span {color:#fff; cursor:pointer;}
 
-      .box > img:hover {opacity:0.5; cursor:pointer;}
+      .box > img:hover {opacity:0.5; cursor:pointer; }
       
       .box_text {
         font-size: 8vh;
@@ -59,7 +63,7 @@
         text-align: center;
         height: 10vh;
         line-height: 2.6;
-        font-family:'Barlow', sans-serif; }
+        font-family:'Barlow'; }
      
       .box:hover {
         flex: 1 1 20%; }
