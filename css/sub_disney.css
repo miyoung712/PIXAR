@@ -55,11 +55,11 @@
 
   /* 마우스 스크롤 */
 
-  #sub_page_2 h1 { font-family:'Montserrat', sans-serif; font-weight: 500 !important; color:#fff; font-size:90px; padding-top:90px; margin-left:130px;}
+  #sub_page_2 h1 { font-family:'Montserrat', sans-serif; font-weight: 500 !important; color:#fff; font-size:75px; padding-top:90px; margin-left:130px;}
   #sub_page_2 h3 { font-family: 'Barlow', sans-serif; color:#191919; font-size:12px;
       margin-top:295px; margin-left:1000px; letter-spacing: 1px; text-transform: uppercase; font-weight:700 !important; }
-  #sub_page_2 p { font-family: 'Barlow', sans-serif; color:#fff; font-size:23px; margin-left:130px; line-height: 26px; margin-top:-250px; font-weight: 300 !important; }
-  #sub_page_2 img {margin-left:580px; margin-top:50px; width:500px; height:333px;}
+  #sub_page_2 p { font-family: 'Barlow', sans-serif; color:#fff; font-size:23px; margin-left:130px; line-height: 26px; margin-top:-270px; font-weight: 300 !important; }
+  #sub_page_2 img {margin-left:580px; margin-top:50px; width:560px; height:373px;}
 
 
 
