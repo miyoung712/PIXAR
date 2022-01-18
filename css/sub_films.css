@@ -15,19 +15,19 @@
  /* 스크롤 */
 
   #top_box {width:100%; height:49.5%; margin:0 auto;}
-  #top_box h1 {font-size:65px; text-align:center; font-family:'Montserrat', sans-serif; color:#fff; 
-                text-transform:uppercase; letter-spacing:15px; font-weight: 600; 
+  #top_box h1 {font-size:65px; text-align:center; font-family:'Montserrat', sans-serif; font-weight: 800 !important; color:#fff; 
+                text-transform:uppercase; letter-spacing:15px; 
                 top:27%; left:50%; transform:translate(-50%,-50%); position: absolute; }
   
   .sub_title {width:900px; height:300px; margin-left:1000px; margin-top:350px; }
-  .sub_title h1 {font-size:33px; color:#000; text-align:center; font-family:'Montserrat', sans-serif; font-weight:600 !important; 
+  .sub_title h1 {font-size:33px; color:#000; text-align:center; font-family:'Montserrat', sans-serif; font-weight: 500 !important;
                  line-height:40px; display:inline-block; margin-top:195px; margin-left:240px;}
   .sub_title .fas {color:#000; font-size:30px;display:flex; justify-content:center; align-items:center; 
         margin-left:278px; margin-top: -33px;}
   .sub_title .fas:hover {color:red;}
   .container .img_box {width:439px; height:600px; position:relative; margin-top:310px;}  
   .img_box p {font-size:13px; color:#757373; text-align:center; letter-spacing:1px; 
-    font-family:'Montserrat', sans-serif; font-weight:500 !important; margin-top:7px;top:10%; left:10%; }
+    font-family:'Montserrat', sans-serif; margin-top:7px;top:10%; left:10%; }
 
   .m_box {width:300px; height:439px;  overflow:hidden; 
            top:10%; left:20%; transform: translate(23%,5%);}
@@ -38,7 +38,7 @@
   .m_box img:hover {transform: scale(1.2) }
 
   .container h2 {font-size:22px; color:#000; text-align:center; font-weight:500; 
-          font-family:'Montserrat', sans-serif; font-weight:600 !important; margin-top:50px; }
+          font-family:'Montserrat', sans-serif; font-weight:500 !important; margin-top:50px; }
   .img_box h3 {color:#757373; font-size:13px; text-align:center; letter-spacing:1px; 
            font-family:'Barlow'; margin-top:6px; font-weight: 500;}
 
