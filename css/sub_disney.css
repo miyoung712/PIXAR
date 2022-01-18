@@ -58,7 +58,7 @@
   #sub_page_2 h1 { font-family:'Montserrat', sans-serif; color:#fff; font-size:90px; padding-top:110px; margin-left:180px;}
   #sub_page_2 h3 { font-family: 'Barlow', sans-serif; color:#fff; font-size:13px; transform: rotate(90deg);
       margin-bottom:300px; margin-left:10px; }
-  #sub_page_2 p { font-family: 'Barlow', sans-serif; color:#fff; font-size:20px; margin-left:70px; line-height: 26px; margin-top:-500px;}
+  #sub_page_2 p { font-family: 'Barlow', sans-serif; color:#fff; font-size:20px; margin-left:70px; line-height: 26px; margin-top:-500px; font-weight: 300 !important; }
   #sub_page_2 img {margin-left:810px; margin-top:50px; width:500px; height:333px;}
 
 

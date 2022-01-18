@@ -8,6 +8,7 @@ body {
   width:100%; height:543vh;
   background-color: #000;
   font-family: 'Barlow';
+  font-weight: 400 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: fixed;
@@ -115,7 +116,7 @@ body {
   
 }
 
-.nav__list-item a {color:#000;}
+.nav__list-item a {color:#000; font-weight: 400 !important; }
 
 .nav__list-item:before {
   content: "";
