@@ -19,7 +19,7 @@
                 text-transform:uppercase; letter-spacing:15px; 
                 top:27%; left:50%; transform:translate(-50%,-50%); position: absolute; }
   
-  .sub_title {width:900px; height:300px; margin-left:1000px; margin-top:350px; }
+  .sub_title {width:900px; height:500px; margin-left:1000px; margin-top:350px; }
   .sub_title h1 {font-size:33px; color:#000; text-align:center; font-family:'Montserrat', sans-serif; font-weight: 500 !important;
                  line-height:40px; display:inline-block; margin-top:195px; margin-left:240px;}
   .sub_title .fas {color:#000; font-size:30px;display:flex; justify-content:center; align-items:center; 
