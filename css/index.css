@@ -59,7 +59,7 @@
         text-align: center;
         height: 10vh;
         line-height: 2.6;
-        font-family:'Barlow'; }
+        font-family:'Barlow', sans-serif; }
      
       .box:hover {
         flex: 1 1 20%; }

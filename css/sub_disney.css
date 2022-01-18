@@ -3,15 +3,68 @@
 
 @media (min-width:1200px){
 
-  body {width:100%; height:230vh;}
+  body {width:100%; height:543vh; background:url(../img/sub_disney/sub_disney_top.jpg) center center/100% 100vh no-repeat fixed; 
+  position:relative;}
 
-  #top_box {width:100%; height:43.5%; margin:0 auto;}
+  #top_box {width:100%; height:100vh; margin:0 auto; }
   #top_box h1 {font-size:65px; text-align:center; font-family:'Montserrat', sans-serif; color:#fff; 
                 text-transform:uppercase; letter-spacing:15px; font-weight: 600; 
-                top:23.5%; left:50%; transform:translate(-50%,-50%); position: absolute; }
+                top:10%; left:50%; transform:translate(-50%,-50%); position: absolute; }
+  #sub_page {width:80%; height:100vh; position:absolute; top:200vh;}
+  #sub_page_2 {width:100%; height:900px; background:url(../img/sub_disney/p_disney.jpg); position: sticky; bottom:0; z-index:10}
+  #sub_page_3 {width:100%; height:900px; background:url(../img/sub_disney/p_disney.jpg); position: sticky; bottom:0; z-index:5}
+  #sub_page_4 {width:100%; height:900px; background:url(../img/sub_disney/p_disney.jpg); position: sticky; bottom:0; z-index:1}  
   
- 
 
+  /* 마우스 스크롤 */
+  .scrollDown::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    border-radius: 50%;
+    opacity: 1;
+    animation: point 2s infinite;
+    -webkit-animation: point 2s infinite;}
+
+  .scrollDown::before {
+      content: '';
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #333;
+      border-radius: 50%;
+      opacity: 1;
+      animation: point 2s infinite;
+      -webkit-animation: point 2s infinite;}
+
+      .scrollDown{width: 35px; height: 55px; border: 3px solid #fff; border-radius: 60px; 
+             position: fixed;  right:5%; bottom:5%; }
+      .scrollDown::before{content: ''; width: 8px; height: 8px; position: absolute; top: 10px; left: 50%; 
+        transform: translateX(-50%); background-color: #fff; border-radius: 50%; opacity: 1; 
+        animation: point 2s infinite; -webkit-animation: point 2s infinite;}
+      @keyframes point{to{opacity: 0; top: 35px;}}
+      @-webkit-keyframes point{to{opacity: 0; top: 35px;}}
+
+  /* 마우스 스크롤 */
+
+  #sub_page_2 h1 { font-family:'Montserrat', sans-serif; color:#fff; font-size:90px; padding-top:110px; margin-left:180px;}
+  #sub_page_2 h3 { font-family: 'Barlow', sans-serif; color:#fff; font-size:13px; transform: rotate(90deg);
+      margin-bottom:300px; margin-left:10px; }
+  #sub_page_2 p { font-family: 'Barlow', sans-serif; color:#fff; font-size:20px; margin-left:70px; line-height: 26px; margin-top:-500px;}
+  #sub_page_2 img {margin-left:810px; margin-top:50px; width:500px; height:333px;}
+
+
+
+
+ 
     /* 하단 */
   
      #f_box {width:100%; height:240px; background-color: #000; 

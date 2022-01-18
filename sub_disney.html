@@ -9,10 +9,11 @@
   <link rel="stylesheet" href="css/common.css">
   <link rel="stylesheet" href="css/sub_disney.css">
   <link rel="stylesheet" href="css/style_disney.css">
-  <link rel="favicon.ico" type="image/x-icon" href="/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,300,400,500" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,600;0,800;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
 
@@ -20,69 +21,97 @@
 
 <body>
 
-<!-- 메뉴 슬라이드 네비게이션 -->
-<div class="menu-icon">
-	<span class="menu-icon__line menu-icon__line-left"></span>
-	<span class="menu-icon__line"></span>
-	<span class="menu-icon__line menu-icon__line-right"></span>
-</div>
+  <!-- 메뉴 슬라이드 네비게이션 -->
+  <div id="nav-active">
 
-<div class="nav">
-	<div class="nav__content">
-		<ul class="nav__list">
-			<li class="nav__list-item"><a href="index.html">Home</a></li>
-      <li class="nav__list-item"><a href="sub_films.html">About</a></li>
-			<li class="nav__list-item"><a href="sub_films.html">Films</a></li>
-			<li class="nav__list-item"><a href="sub_disney.html">Disney</a></li>
-			<li class="nav__list-item"><a href="sub_films.html">Contact</a></li>
-		</ul>
-	</div>
-</div>
-<!-- 메뉴 슬라이드 네비게이션 -->
+  <div class="menu-icon">
+    <span class="menu-icon__line menu-icon__line-left"></span>
+    <span class="menu-icon__line"></span>
+    <span class="menu-icon__line menu-icon__line-right"></span>
+  </div>
 
-<div id="logo_box">
-  <a href="index.html"><img src="img/logo.png" alt=""></a>
+  <div class="nav">
+    <div class="nav__content">
+      <ul class="nav__list">
+        <li class="nav__list-item"><a href="index.html">Home</a></li>
+        <li class="nav__list-item"><a href="sub_films.html">About</a></li>
+        <li class="nav__list-item"><a href="sub_films.html">Films</a></li>
+        <li class="nav__list-item"><a href="sub_disney.html">Disney</a></li>
+        <li class="nav__list-item"><a href="sub_films.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
+  <!-- 메뉴 슬라이드 네비게이션 -->
 
-<div id="top_box">
+  <div id="logo_box">
+    <a href="index.html"><img src="img/logo.png" alt=""></a>
+  </div>
+
+  <div id="top_box">
     <h1><b>Disney</b></h1>
+  </div>
+
+  <div id="sub_page">
+    <div id="sub_page_2">
+      <h1>The Birth of Pixar</h1>
+      <img src="img/sub_disney/p_disney_img.jpg" alt="">
+      <h3>Pixar Animation Studios</h3>
+      <p>Steve Jobs purchases the Computer<br>
+        Division from George Lucas and establishes the group as an<br>
+        independent company, “Pixar.” At this time about 40 people are employed<br>
+        Pixar and Disney begin collaboration on CAPS,<br>
+        the Computer Animation Production System,<br>
+        which would revolutionize the creation of traditional animated films<br>
+        The first check written to Pixar by a client after its incorporation<br>
+        is from Disney, for work on this project</p>
+    </div>
+  
+    <div id="sub_page_3"></div>
+    <div id="sub_page_4"></div>
   </div>
   
 
+  <div id="scorllDownBox">
+    <div class="scrollDown"></div>
+  </div>
 
 
 
 
-<!-- 하단 -->
-<footer>
-  <div id="f_box">
-    <div class="s_info">
-      <img src="img/logo_f.png" alt="" onclick="location.href('index.html')">
+
+
+
+  <!-- 하단 -->
+  <footer>
+    <div id="f_box">
+      <div class="s_info">
+        <img src="img/logo_f.png" alt="" onclick="location.href('index.html')">
         <div class="sns_icon">
-           <i class="fab fa-facebook-f"></i>
-           <i class="fab fa-instagram"></i>
-           <i class="fab fa-twitter"></i>
-           <i class="fab fa-youtube"></i>
-           <i class="fab fa-pinterest-p"></i>
-           <i class="fas fa-film"></i>
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fas fa-film"></i>
         </div>
       </div>
-     <div class="f_info">
-       <ul id="info_c">
-         <li><span>Feature Film</span></li>
-         <li><span>I</span></li>
-         <li><span>Technology</span></li>
-         <li><span>I</span></li>
-         <li><span>Event</span></li>
-         <li><span>I</span></li>
-         <li><span>Contact</span></li>
-       </ul>
+      <div class="f_info">
+        <ul id="info_c">
+          <li><span>Feature Film</span></li>
+          <li><span>I</span></li>
+          <li><span>Technology</span></li>
+          <li><span>I</span></li>
+          <li><span>Event</span></li>
+          <li><span>I</span></li>
+          <li><span>Contact</span></li>
+        </ul>
         <p>© 1986-2022 DISNEY / PIXAR</p>
       </div>
-  </div>
-<!-- 하단 -->
+    </div>
+    <!-- 하단 -->
 
-</footer>
+  </footer>
 
   <script src="js/index.js"></script>
 
