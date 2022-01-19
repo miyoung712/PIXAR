@@ -3,7 +3,7 @@
 
 @media (min-width:1200px){
 
-  body {width:100%; height:543vh; background:url(../img/sub_disney/sub_disney_top.jpg) center center/100% 100vh no-repeat fixed; 
+  body {width:100%; height:603vh; background:url(../img/sub_disney/sub_disney_top.jpg) center center/100% 100vh no-repeat fixed; 
   position:relative;}
 
   #top_box {width:100%; height:100vh; margin:0 auto; }
@@ -14,6 +14,7 @@
   #sub_page_2 {width:100%; height:900px; background:url(../img/sub_disney/p_disney.jpg) center; position: sticky; bottom:0; z-index:10; }
   #sub_page_3 {width:100%; height:900px; background:url(../img/sub_disney/p_disney_2.jpg) center; position: sticky; bottom:0; z-index:7; }
   #sub_page_4 {width:100%; height:900px; background:url(../img/sub_disney/p_disney_3.jpg) center; position: sticky; bottom:0; z-index:6;}  
+  #sub_page_5 {width:100%; height:900px; background:url(../img/sub_disney/p_disney_3.jpg) center; position: sticky; bottom:0; z-index:5;}  
   
 
   /* 마우스 스크롤 */
