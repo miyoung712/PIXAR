@@ -62,7 +62,7 @@
         font-family:'Barlow', sans-serif; }
      
       .box:hover {
-        flex: 1 1 20%; }
+        flex: 1 1 8%; }
       
       .box:hover > img {
         width:100%;
