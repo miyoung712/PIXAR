@@ -3,10 +3,11 @@
 ul,li,ol {list-style:none; margin:0; padding:0;}
 a {text-decoration:none; }
 
-@media (min-width:1200px){
+
+@media (min-width:100px) and (max-width:934px){
 
 body {
-  width:100%; height:5804px;
+  width:100%; height:4920px;
   background-color: #000;
   font-family: 'Barlow';
   font-weight: 400 !important;
