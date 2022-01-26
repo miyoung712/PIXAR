@@ -3,7 +3,7 @@
 
 @media (min-width:600px) and (max-width:1199px){
 
-  body {width:100%; height:5804px; background:url(../img/sub_disney/sub_disney_top.jpg) center center/100% 100vh no-repeat fixed; 
+  body {width:100%; height:5782px; background:url(../img/sub_disney/sub_disney_top.jpg) center center/100% 100vh no-repeat fixed; 
   position:relative;}
 
   #top_box {width:100%; height:100vh; margin:0 auto; }
