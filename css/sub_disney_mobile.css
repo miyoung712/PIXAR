@@ -57,13 +57,13 @@
   /* 마우스 스크롤 */
 
   .first_box {width:100%; height:150px; }
-  .first_box h1 { font-family:'Montserrat', sans-serif; font-weight: 500 !important; color:#fff; font-size:5vw; padding-top:120px; margin-left:35px; }
+  .first_box h1 { font-family:'Montserrat', sans-serif; font-weight: 500 !important; color:#fff; font-size:7vw;padding-top:90px; margin-left:25px; }
   .first_box2 {display: none; }
   .first_box2 img:first-of-type {display: none}
   .first_box2 img:nth-of-type(2) {display: none}
   .first_box3 {width:100%; height:290px; }
-  .first_box3 p { font-family: 'GowunBatang-Regular'; color:#fff; font-size:1.6vw;  line-height: 24px;
-    letter-spacing: 1px; transform: translate(6.5%,27%); width:70%; padding-top:20px;}
+  .first_box3 p { font-family: 'GowunBatang-Regular'; color:#fff; font-size:2.7vw;  line-height: 24px;
+    letter-spacing: 1px; transform: translate(6.5%,27%); width:70%; padding-top:10px;}
   .first_box4 {width:100%; height:70px;}
   .first_box4 h3 { font-family: 'Barlow', sans-serif; color:#191919; font-size:0.65vw; text-align:right; margin-right:1.8%;
       margin-top:230px;  letter-spacing: 1px; text-transform: uppercase; font-weight:700 !important; }
@@ -76,10 +76,10 @@
   .nth_2_2box {width:100%; height:380px; }
   .h_b { width:100%; height:90px; }
   .p_b { width:100%; height:200px;}
-  .h_b h1 { font-family:'Montserrat', sans-serif; font-weight: 500 !important; color:#fff; font-size:5vw; 
-           transform: translate(7.4%,5%);padding-top:120px;}
-  .p_b p { font-family: 'GowunBatang-Regular'; color:#fff; font-size:1.6vw; line-height:24px; letter-spacing:1px;
-           transform: translate(7.8%,5%);padding-top:120px;}  
+  .h_b h1 { font-family:'Montserrat', sans-serif; font-weight: 500 !important; color:#fff; font-size:7vw;
+           transform: translate(7.4%,5%);padding-top:90px; margin-left:13px; width:90px;}
+  .p_b p { font-family: 'GowunBatang-Regular'; color:#fff; font-size:2.7vw; line-height:24px; letter-spacing:1px;
+           transform: translate(7.8%,5%); padding-top:120px; margin-left:-10px;  width:70%;}  
 
           
   #sub_page_4 h3 {font-family: 'Barlow', sans-serif; color:#191919; font-size:0.65vw; text-align:right; 
@@ -91,21 +91,21 @@
   .nth_3 {width:100%; height:300px; display:flex; flex-wrap: wrap; }
   .nth_3_3box {width:100%; height:250px;}
   .nth_3_3box h1 {font-family:'Montserrat', sans-serif; font-weight: 500 !important; color:#fff; 
-            font-size:5vw; transform: translate(8%,70%); padding-top:60px;}
-  .nth_3_3box p {font-family: 'GowunBatang-Regular'; color:#fff; font-size:1.6vw; line-height:24px; letter-spacing:1px;
-               transform: translate(8%,40%); padding-top:45px;}
+            font-size:5vw; transform: translate(8%,70%); padding-top:55px; margin-left:-30px; }
+  .nth_3_3box p {font-family: 'GowunBatang-Regular'; color:#fff; font-size:2.7vw; line-height:24px; letter-spacing:1px;
+               transform: translate(8%,40%); padding-top:15px;  width:70%; margin-left:-10px;}
 
                
   .nth_4box {display:none;}
   .nth_4box img:first-of-type {display: none;}
   .nth_4box img:nth-of-type(2) {display: none;}
-  .nth_4_2box {width:100%; height:100%; }
+  /* .nth_4_2box {width:100%; height:100%; } */
   .last_box {width:100%; height:30%; display:flex; align-items: flex-end; }
   .last_box_2  {width:100%; height:70%; margin-top:-30px; }
   .last_box h1 {font-family:'Montserrat', sans-serif; font-weight: 500 !important; color:#fff; 
-    font-size:5vw;  margin-left:60px; padding-top:250px;}
-  .last_box_2 p {font-family: 'GowunBatang-Regular'; color:#fff; font-size:1.6vw;  line-height: 24px;
-    letter-spacing: 1px; margin:50px 60px;padding-top:20px;}
+    font-size:7vw;  margin-left:20px; padding-top:40px; }
+  .last_box_2 p {font-family: 'GowunBatang-Regular'; color:#fff; font-size:2.3vw;  line-height: 24px;
+    letter-spacing: 1px; margin:50px 60px; padding-top:10px; width:70%; margin-left:20px;}
   .box5 {width:100%; height:4%; position: absolute; bottom:5px;  }
   .box5 h3 {font-family: 'Barlow', sans-serif; color:#191919; font-size:0.65vw; text-align:right; 
     letter-spacing: 1px; text-transform: uppercase; font-weight:700 !important; margin-right:1.8%; margin-top:2px;}
